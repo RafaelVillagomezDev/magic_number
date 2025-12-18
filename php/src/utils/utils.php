@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 /**
  * Verifica si un valor es negativo y numérico

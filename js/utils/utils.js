@@ -9,7 +9,10 @@
  */
 export function magic_inc() {
     let [value, mode] = arguments;
-
+    // Validación del modo solamente  esta permitido 'inc' o 'dec'
+    if (mode !== 'inc' && mode !== 'dec') {
+        throw new Error("El modo debe ser 'inc' o 'dec'");
+    }
     // Validación: Cualquier valor no numberérico null o 0 devolvemos 0 
     let number = parseFloat(value);
     if (!value || isNaN(number) || number === 0 || Math.sign(number) == -0) return 0;
