@@ -10,7 +10,7 @@ Esta es una utilidad de JavaScript que implementa una lógica de incremento y de
 
 Para ejecutar el script y ver los resultados por consola, sigue estos pasos:
 
-1. Posicionate dentro de la carpeta utils donde esta nuestra función magic_inc dentro del archivo llamado `index.js`.
+1. Posicionate dentro de la carpeta js  donde esta nuestra función magic_inc dentro del archivo llamado `index.js`.
 2. Abre tu terminal o consola de comandos.
 3. Ejecuta el siguiente comando :
 
