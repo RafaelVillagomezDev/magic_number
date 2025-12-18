@@ -58,10 +58,10 @@ export function magic_inc() {
         if (isNegative) result = -result;
         return result;
     } else {
-      
+
         result = resDigit * Math.pow(10, resExp);
         if (isNegative) result *= -1;
-       
+
         return Number(result.toPrecision(1));  // Limpiamos resto de coma flotante
     }
 
